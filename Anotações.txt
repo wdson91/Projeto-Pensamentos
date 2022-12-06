@@ -1,0 +1,36 @@
+//Projeto Tought
+
+// Inicializar projeto
+npm init -y
+
+//Instalações de Pacotes
+
+npm install
+
+bcrypt  // Biblioteca para fazer criptografia de senhas 
+connect-flash // O módulo Connect-flash para Node.js permite que os desenvolvedores enviem uma mensagem sempre que um usuário estiver redirecionando para uma página da web especificada
+cookie-parser // Armazena um cookie no navegador do cliente
+cookie-session
+express // Framework node
+express-flash //Flash é uma extensão do connect-flash com a capacidade de definir uma mensagem flash e renderizá-la sem redirecionar a solicitação.
+express-session// Crie um middleware de sessão com as opções fornecidas
+sequelize // O Sequelize é um ORM(Object/Relational Mapper) baseado em Promise para Node.js
+pg // Cliente PostgreSQL 
+nodemon // Ferramenta para reinicio automatico do servidor quando acontece alguma alteração
+session-file-store // armazenar dados de sessão no arquivo de sessão
+handlebars // Motor de templates js
+
+//PASTAS DO PROJETO
+
+CONTROLLERS // Local onde definimos as funções e definimos os renders
+DB // Pasta de conexão com o banco de dados
+HELPERS // Funçoes auxiliares
+MODELS // Models do Banco de dados
+PUBLIC // Pasta onde ficam os arquivos de imagem e css
+ROUTES //
+SESSION
+VIEWS
+-AUTH
+-LAYOUTS
+-TOUGHTS
+INDEX.JS
